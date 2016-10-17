@@ -8,7 +8,7 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' dddTempLZ.stateX()
+#' stateX()
 #' }
 stateX <- function(v,modelTempLZ) {
   res <- v*(1+modelTempLZ$Tlr*((modelTempLZ$hfelt-modelTempLZ$midmett)/100))
