@@ -3,7 +3,7 @@
 #' The function \code{stateX()} process the temperature for each elevation zone
 #' @param v temperature value (scalar)
 #' @param modelTempLZ
-#'  list(nbLevelZone=a,Tlr=b,hfelt=c,midmett=d)
+#'  list(nbLevelZone,Tlr,hfelt,midmett)
 #' @keywords TempLZ
 #' @export
 #' @examples
