@@ -4,8 +4,7 @@
 \alias{getTempLZ}
 \title{Get the observations}
 \usage{
-getTempLZ(method = NULL, path = NULL, filename = NULL,
-  modelTempLZ = NULL)
+getTempLZ(method = NULL, path = NULL, filename = NULL, ...)
 }
 \arguments{
 \item{method}{method for processing observations, "lz", "processedNVE"}
@@ -14,7 +13,7 @@ getTempLZ(method = NULL, path = NULL, filename = NULL,
 
 \item{filename}{Filename (path included) of the file to be read}
 
-\item{modelTempLZ}{list(nbLevelZone,Tlr,hfelt,midmett)}
+\item{...}{options for the different methods}
 }
 \description{
 Get and process, if needed, the observations
